@@ -1,0 +1,72 @@
+Bad Request: /honeypot/
+"GET /honeypot/ HTTP/1.1" 400 38
+Bad Request: /honeypot/
+"GET /honeypot/ HTTP/1.1" 400 38
+Bad Request: /honeypot/
+"GET /honeypot/ HTTP/1.1" 400 38
+Bad Request: /honeypot/
+"GET /honeypot/ HTTP/1.1" 400 38
+Bad Request: /honeypot/
+"GET /honeypot/ HTTP/1.1" 400 38
+Not Found: /honeypot/
+"GET /honeypot/ HTTP/1.1" 404 2909
+Internal Server Error: /honeypot/
+Traceback (most recent call last):
+  File "D:\Professional Documents\Cybersecurity tools\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Professional Documents\Cybersecurity tools\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Professional Documents\Cybersecurity tools\honeypot\views.py", line 13, in honeypot_form
+    return render(request, 'honeypot_form.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Professional Documents\Cybersecurity tools\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Professional Documents\Cybersecurity tools\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Professional Documents\Cybersecurity tools\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: honeypot_form.html
+"GET /honeypot/ HTTP/1.1" 500 84069
+Forbidden: /honeypot/process/
+"POST /honeypot/process/ HTTP/1.1" 403 61
+Forbidden: /honeypot/process/
+"POST /honeypot/process/ HTTP/1.1" 403 61
+Forbidden: /honeypot/process/
+"POST /honeypot/process/ HTTP/1.1" 403 61
+Unauthorized access attempt detected! IP: 127.0.0.1, URL: http://127.0.0.1:8000/honeypot/process/, Time: 2024-11-23 06:28:10.368459+00:00, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Forbidden: /honeypot/process/
+"POST /honeypot/process/ HTTP/1.1" 403 61
+Not Found: /honeypot/process/
+"POST /honeypot/process/ HTTP/1.1" 404 2923
+Not Found: /honeypot/process/
+"POST /honeypot/process/ HTTP/1.1" 404 2915
+Forbidden: /honeypot/submit/
+"POST /honeypot/submit/ HTTP/1.1" 403 61
+Forbidden: /honeypot/submit/
+"POST /honeypot/submit/ HTTP/1.1" 403 61
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Forbidden (CSRF token missing.): /honeypot/
+"POST /honeypot/ HTTP/1.1" 403 2491
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2513
