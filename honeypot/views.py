@@ -11,7 +11,7 @@ from django.conf import settings
 # Set up logging
 logger = logging.getLogger(__name__)
 
-# This view renders the honeypot form
+
 def honeypot_form(request):
     return render(request, 'honeypot_form.html')
 
